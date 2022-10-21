@@ -17,12 +17,13 @@ public class DebugCollatz
         int n = inicial;
         int counter = 0;
  
-        do {
+        do { if(n==1) {
+        }else{
             if(n % 2 == 0)
-2                n = n/2;
+                n = n/2;
             else
                 n = n*3+1;
-            counter++;
+            counter++;}
         } while (n != 1);
 
         System.out.printf("S'ha arribat del %d al 1 després de %d passos.\n",inicial, counter);
