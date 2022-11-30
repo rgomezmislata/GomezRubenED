@@ -9,7 +9,7 @@ public class GitConflicts {
         int n = in.nextInt();
         
         if(n % 2 == 0) {
-            // TODO: Number is even
+            System.out.printf("%d is even.", n);
         } else {
             // TODO: Number is odd
         }
