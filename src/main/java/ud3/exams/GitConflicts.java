@@ -11,11 +11,8 @@ public class GitConflicts {
         if(n % 2 == 0) {
             System.out.printf("%d is even.", n);
         } else {
-<<<<<<< HEAD
-            System.out.printf("%d is not even.", n);
-=======
             System.out.printf("%d is odd.", n);
->>>>>>> odd_number
+
         }
     }
 }
