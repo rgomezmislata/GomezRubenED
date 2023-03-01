@@ -10,10 +10,13 @@ import static org.junit.jupiter.api.Assertions.*;
 class BankAccountTest {
     private BankAccount bankAccount;
     private BankAccount bankAccount1;
+
     @BeforeEach
     void setup() {
         bankAccount = new BankAccount("1234", "Pomma", 1000);
         bankAccount1 = new BankAccount("123", "Maduixa");
+
+
     }
 
     @Nested
